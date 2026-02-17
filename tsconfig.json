@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "ESNext",
+    "rootDir": "./src/assets/",
+    "outDir": "./assets/",
+    "allowJs": true
+  },
+  "checkJs": false,
+  "noImplicitAny": true,
+  "strictNullChecks": true
+}
