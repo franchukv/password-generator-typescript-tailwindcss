@@ -89,7 +89,7 @@
   }
 
   .typical-checkbox__title {
-    @apply flex items-center gap-4 before:content-[''] before:min-w-5 before:w-5 before:h-5 before:block before:border-2 before:border-grey-200 before:bg-no-repeat before:bg-contain;
+    @apply flex items-center leading-[125%] md:leading-[133%] gap-4 before:content-[''] before:min-w-5 before:w-5 before:h-5 before:block before:border-2 before:border-grey-200 before:bg-no-repeat before:bg-contain;
   }
 
   .typical-checkbox__input {
