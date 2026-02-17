@@ -77,7 +77,7 @@
   }
 
   .button {
-    @apply w-full flex items-center justify-center gap-6 p-4 leading-[125%] text-center text-base text-grey-800 bg-green-200 border-2 border-green-200 transition duration-300 cursor-pointer hover:text-green-200 hover:bg-transparent md:text-lg md:leading-[133%];
+    @apply w-full flex items-center justify-center leading-[125%] gap-6 p-4 text-center text-base text-grey-800 bg-green-200 border-2 border-green-200 transition duration-300 cursor-pointer hover:text-green-200 hover:bg-transparent md:text-lg md:p-5 md:leading-[117%];
   }
 
   .button--right-arrow {
@@ -89,7 +89,7 @@
   }
 
   .typical-checkbox__title {
-    @apply flex items-center gap-4 before:content-[''] before:min-w-5 before:w-5 before:h-5 before:block before:border-2 before:border-green-200 before:bg-no-repeat before:bg-contain;
+    @apply flex items-center gap-4 before:content-[''] before:min-w-5 before:w-5 before:h-5 before:block before:border-2 before:border-grey-200 before:bg-no-repeat before:bg-contain;
   }
 
   .typical-checkbox__input {
@@ -97,7 +97,7 @@
   }
 
   .typical-checkbox__input:checked + .typical-checkbox__title {
-    @apply before:bg-green-200 before:bg-[url(../images/checkbox.svg)];
+    @apply before:bg-green-200 before:border-green-200 before:bg-[url(../images/checkbox.svg)];
   }
 
   .typical-range {

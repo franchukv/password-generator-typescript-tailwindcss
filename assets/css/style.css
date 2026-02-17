@@ -444,6 +444,11 @@
       padding-block: calc(var(--spacing) * 5);
     }
   }
+  .md\:py-5\.5 {
+    @media (width >= 48rem) {
+      padding-block: calc(var(--spacing) * 5.5);
+    }
+  }
   .md\:py-33\.25 {
     @media (width >= 48rem) {
       padding-block: calc(var(--spacing) * 33.25);
@@ -616,12 +621,15 @@
       }
     }
     @media (width >= 48rem) {
+      padding: calc(var(--spacing) * 5);
+    }
+    @media (width >= 48rem) {
       font-size: var(--text-lg);
       line-height: var(--tw-leading, var(--text-lg--line-height));
     }
     @media (width >= 48rem) {
-      --tw-leading: 133%;
-      line-height: 133%;
+      --tw-leading: 117%;
+      line-height: 117%;
     }
   }
   .button--right-arrow {
@@ -710,7 +718,7 @@
     }
     &::before {
       content: var(--tw-content);
-      border-color: var(--color-green-200);
+      border-color: var(--color-grey-200);
     }
     &::before {
       content: var(--tw-content);
@@ -732,6 +740,10 @@
     opacity: 0%;
   }
   .typical-checkbox__input:checked + .typical-checkbox__title {
+    &::before {
+      content: var(--tw-content);
+      border-color: var(--color-green-200);
+    }
     &::before {
       content: var(--tw-content);
       background-color: var(--color-green-200);
