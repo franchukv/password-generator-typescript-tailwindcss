@@ -261,9 +261,6 @@
   .justify-between {
     justify-content: space-between;
   }
-  .justify-center {
-    justify-content: center;
-  }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
   }
@@ -538,7 +535,7 @@
   .container-custom {
     margin-inline: auto;
     width: 100%;
-    max-width: calc(var(--spacing) * 135);
+    max-width: calc(var(--spacing) * 143);
     padding-inline: calc(var(--spacing) * 4);
   }
   .indicators {

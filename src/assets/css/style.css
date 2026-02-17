@@ -37,7 +37,7 @@
   }
 
   .container-custom {
-    @apply max-w-135 w-full mx-auto px-4;
+    @apply max-w-143 w-full mx-auto px-4;
   }
 
   .indicators {
